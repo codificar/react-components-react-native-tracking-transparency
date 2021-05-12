@@ -70,8 +70,8 @@ const MyScreen = () => {
 
 | Prop       | Default |   Type   | Description |
 | :--------- | :-----: | :------: | :------------------- |
-| textButton      |   ''    | `string` | Text for button |
-| description |    -    | `string` | Message descriptiom |
+| textButton      |   'Habilitar'    | `string` | Text for button |
+| description | 'Habilite o tracking para que o app funcione corretamente.'  | `string` | Message descriptiom |
 
 ## Co-relateds Lib 📦
 
