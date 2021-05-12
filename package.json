@@ -1,5 +1,5 @@
 {
-  "name": "react-native-tracking-transparency",
+  "name": "@codificar/react-native-tracking-transparency",
   "version": "1.0.0",
   "description": "A component to App Tracking transparency",
   "main": "index.js",
