@@ -18,6 +18,12 @@ add in package.json:
 "react-native-tracking-transparency": "git+https://libs:ofImhksJ@git.codificar.com.br/react-components/react-native-tracking-transparency.git",
 ```
 
+## Add to info.plist
+```xml
+<key>NSUserTrackingUsageDescription</key>
+<string>Exemple App needs your permission for some random actions.</string>
+```
+
 ## Basic Usage 
 
 ```dart
