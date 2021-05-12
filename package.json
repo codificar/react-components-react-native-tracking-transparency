@@ -1,7 +1,7 @@
 {
   "name": "react-native-tracking-transparency",
   "version": "1.0.0",
-  "description": "A component for App Tracking transparency",
+  "description": "A component to App Tracking transparency",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
