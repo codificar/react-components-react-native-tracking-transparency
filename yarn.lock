@@ -32,3 +32,8 @@ react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react-native-tracking-transparency@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/react-native-tracking-transparency/-/react-native-tracking-transparency-0.1.0.tgz#d3204f165f3bc7851b66eeb50d814bc65eb6f2cf"
+  integrity sha512-daq2bPV4Yme4dpSHEL1iJLVqbV14bLjyIdaMfMQ1XAfGDtGToyq4Fb18hKeObLKP8w2TYHaUUErPoIwNuqtORA==
