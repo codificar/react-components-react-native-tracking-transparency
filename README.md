@@ -4,6 +4,8 @@
 
 A generic component to react native
 
+<img src=".gitlab/preview.png" />
+
 ## Install
 
 add in package.json:
@@ -14,40 +16,50 @@ add in package.json:
 
 ## Basic Usage
 
-```javascript
+```dart
 ...
 import { ModalTracking, requestTrackingPermission, Tracking } from 'react-native-tracking-transparency';
 
-const [ isVisible, setIsVisible ] = useState(false);
+const MyScreen = () => {
+...
+  const [ isVisible, setIsVisible ] = useState(false);
 
-const toggleModal = () => setIsVisible(!isVisible);
+  const toggleModal = () => setIsVisible(!isVisible);
 
 // exemple for implement tracking transparency permissions
-const onInit = async () => {
-  const trackingStatus = await requestTrackingPermission();
+  const onInit = async () => {
+    const trackingStatus = await requestTrackingPermission();
 
-  if (trackingStatus === Tracking.AUTHORIZED ||
-	trackingStatus === Tracking.UNAVAILABLE
-  ) {
-    toggleModal();
-    // some action code here
-    return;
-  }
-  if (trackingStatus === Tracking.DENIED) {
-    toggleModal();
-  }
+    if (trackingStatus === Tracking.AUTHORIZED ||
+	  trackingStatus === Tracking.UNAVAILABLE
+    ) {
+      toggleModal();
+      // some action code here
+      return;
+    }
+    if (trackingStatus === Tracking.DENIED) {
+      toggleModal();
+    }
+  };
+
+  useEffect(()=>{
+    onInit();
+  },[]);
+
+ return (
+  <>
+   <ModalTracking
+     isVisible={toggleModal}
+     description={strings('tracking.description')}
+     buttonText={strings('tracking.enable')} 
+    />
+    ...
+  </>
+ );
+
 };
 
-useEffect(()=>{
-  onInit();
-},[]);
 
-
-<ModalTracking
-  isVisible={toggleModal}
-  description={strings('tracking.description')}
-  buttonText={strings('tracking.enable')}
-/>;
 ```
 
 ## Properties
