@@ -3,6 +3,12 @@ import { TrackingStatus } from 'react-native-tracking-transparency';
 
 interface ModalTrackingProps {
   /**
+   * Control Modal visibility
+   * @default false
+   */
+  isvisible: boolean;
+
+  /**
    * Text for button
    * @default "Habilitar"
    */
