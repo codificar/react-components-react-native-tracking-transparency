@@ -1,16 +1,16 @@
-# react-native-tracking-transparency
+# react-native-tracking-transparency 🕵️
 
 
 A component to App Tracking transparency
 
 
-| Preview | ---| 
+| Preview PopUp | Preview ModalTracking | 
 | :--------- | :---------|
 | <img src="https://github.com/mrousavy/react-native-tracking-transparency/raw/master/img/example-1.png" width ="250"/> | <img src=".gitlab/preview.png" width="250" /> |    
  
 
 
-## Install
+## Install 🖥
 
 add in package.json:
 
@@ -18,7 +18,7 @@ add in package.json:
 "react-native-tracking-transparency": "git+https://libs:ofImhksJ@git.codificar.com.br/react-components/react-native-tracking-transparency.git",
 ```
 
-## Basic Usage
+## Basic Usage 
 
 ```dart
 ...
@@ -68,8 +68,11 @@ const MyScreen = () => {
 
 ## Properties
 
-| Prop       | Default |   Type   | Description                           |
-| :--------- | :-----: | :------: | :------------------------------------ |
+| Prop       | Default |   Type   | Description |
+| :--------- | :-----: | :------: | :------------------- |
 | textButton      |   ''    | `string` | Text for button |
-| description |    -    | `string` | Message description                       |
+| description |    -    | `string` | Message descriptiom |
 
+## Co-relateds Lib 📦
+
+ > [react-native-tracking-transparency](https://github.com/mrousavy/react-native-tracking-transparency)
