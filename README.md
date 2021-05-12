@@ -15,7 +15,7 @@ A component to App Tracking transparency
 add in package.json:
 
 ```bash
-"react-native-tracking-transparency": "git+https://libs:ofImhksJ@git.codificar.com.br/react-components/react-native-tracking-transparency.git",
+"@codificar/react-native-tracking-transparency": "git+https://libs:ofImhksJ@git.codificar.com.br/react-components/react-native-tracking-transparency.git",
 ```
 
 ## Add to info.plist

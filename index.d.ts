@@ -23,8 +23,8 @@ interface ModalTrackingProps {
 
 export class ModalTracking extends React.Component<ModalTrackingProps> {}
 
-export function getTrackingStatus(): TrackingStatus;
-export function requestTrackingPermission(): TrackingStatus;
+export function getTrackingStatus(): Promise<TrackingStatus>;
+export function requestTrackingPermission(): Promise<TrackingStatus>;
 
 type TrackingStatusEnum = {
   UNAVAILABLE: string;
