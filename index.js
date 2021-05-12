@@ -11,11 +11,13 @@ import {
 
 export class ModalTracking extends Component {
   static propTypes = {
+    isVisible: PropTypes.bool.isRequired,
     textButton: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
   };
 
   static defaultProps = {
+    isVisible: false,
     textButton: 'Habilitar',
     description: 'Habilite o tracking para que o app funcione corretamente.',
   };
@@ -26,12 +28,12 @@ export class ModalTracking extends Component {
 
   openSettings = () => {
     Linking.openSettings();
-  }
+  };
 
   render() {
-    const { textButton, description } = this.props;
+    const { textButton, description, isVisible } = this.props;
     return (
-      <Modal>
+      <Modal isVisible={isVisible}>
         <View style={styles.wrapper}>
           <Text style={styles.description}>{description}</Text>
           <TouchableOpacity style={styles.button} onPress={this.openSettings}>
