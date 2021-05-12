@@ -6,7 +6,7 @@ interface ModalTrackingProps {
    * Control Modal visibility
    * @default false
    */
-  isvisible: boolean;
+  isVisible: boolean;
 
   /**
    * Text for button
