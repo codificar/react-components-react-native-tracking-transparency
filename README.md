@@ -1,10 +1,14 @@
 # react-native-tracking-transparency
 
 
+A component to App Tracking transparency
 
-A generic component to react native
 
-<img src=".gitlab/preview.png" />
+| Preview | ---| 
+| :--------- | :---------|
+| <img src="https://github.com/mrousavy/react-native-tracking-transparency/raw/master/img/example-1.png" width ="250"/> | <img src=".gitlab/preview.png" width="250" /> |    
+ 
+
 
 ## Install
 
