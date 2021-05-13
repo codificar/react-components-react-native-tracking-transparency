@@ -12,6 +12,10 @@ A component to App Tracking transparency
 
 ## Install 🖥
 
+```bash
+ yarn add react-native-tracking-transparency
+```
+
 add in package.json:
 
 ```bash

@@ -75,15 +75,3 @@ export const Tracking = {
   RESTRICTED: 'restricted',
   NOT_DETERMINED: 'not-determined',
 };
-
-import {
-  getTrackingStatus,
-  requestTrackingPermission,
-} from 'react-native-tracking-transparency';
-
-export async function getTrackingTransparencyStatus() {
-  return await getTrackingStatus();
-}
-export async function requestTrackingTransparencyPermission(){
-  return await requestTrackingPermission();
-}

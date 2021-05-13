@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { TrackingStatus } from 'react-native-tracking-transparency';
 
 interface ModalTrackingProps {
   /**
@@ -22,9 +21,6 @@ interface ModalTrackingProps {
 }
 
 export class ModalTracking extends React.Component<ModalTrackingProps> {}
-
-export async function getTrackingTransparencyStatus(): Promise<TrackingStatus>;
-export async function requestTrackingTransparencyPermission(): Promise<TrackingStatus>;
 
 
 type TrackingStatusEnum = {
