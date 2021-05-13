@@ -33,7 +33,7 @@ export class ModalTracking extends Component {
   render() {
     const { textButton, description, isVisible } = this.props;
     return (
-      <Modal isVisible={isVisible}>
+      <Modal visible={isVisible}>
         <View style={styles.wrapper}>
           <Text style={styles.description}>{description}</Text>
           <TouchableOpacity style={styles.button} onPress={this.openSettings}>
