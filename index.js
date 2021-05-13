@@ -81,9 +81,9 @@ import {
   requestTrackingPermission,
 } from 'react-native-tracking-transparency';
 
-export async function getTrackingStatus() {
+export async function getTrackingTransparencyStatus() {
   return await getTrackingStatus();
 }
-export async function requestTrackingPermission(){
+export async function requestTrackingTransparencyPermission(){
   return await requestTrackingPermission();
 }
