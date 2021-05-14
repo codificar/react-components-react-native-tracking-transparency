@@ -63,7 +63,7 @@ const MyScreen = () => {
  return (
   <>
    <ModalTracking
-     isVisible={toggleModal}
+     isVisible={isVisible}
      description={strings('tracking.description')}
      buttonText={strings('tracking.enable')} 
     />
