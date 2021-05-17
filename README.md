@@ -32,7 +32,8 @@ add in package.json:
 
 ```dart
 ...
-import { ModalTracking, requestTrackingPermission, Tracking } from 'react-native-tracking-transparency';
+import { Tracking, ModalTracking } from '@codificar/react-native-tracking-transparency';
+import { requestTrackingPermission } from 'react-native-tracking-transparency';
 
 const MyScreen = () => {
 ...
